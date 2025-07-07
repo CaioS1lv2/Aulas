@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>titulo</title>
+    <style>
+    body {
+        background:rgb(255, 130, 203);
+        color: rgb(240, 252, 252);
+        font: normal 20pt Arial;
+    }
+    </style>
+</head>
+<body>
+    <script>
+        var nome = window.prompt('Qual seu nome?') // (<br/>) é quebra de linha
+        document.write(`Olá, ${nome}! seu nome tem ${nome.length} letras `) // nome.lenght, mostra quantos caracteres seu nome tem
+        document.write(`seu nome em maisculo é ${nome.toUpperCase()}<br/>`) // variavelname.toUpperCase deixar maisculo
+        document.write(`seu nome em minuscolo é ${nome.toLowerCase()}<br/>`) // variavel.toLowerCase deixar minuscolo 
+        document.write(` e o caio disse que te ama muitoooooooooo`) // n1.tolocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) para dizer qual a moeda monetaria que a pessoa ira receber  
+    </script>
+</body>
+</html>
